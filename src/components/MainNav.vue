@@ -20,9 +20,9 @@
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Sign up</strong>
-                    </a>
+                    <RouterLink to="/Register" class="button is-primary">
+                        Sign up
+                    </RouterLink>
                     <RouterLink to="/login" class="button is-light">
                         Log in
                     </RouterLink>
